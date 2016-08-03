@@ -1,0 +1,6 @@
+service: default
+runtime: nodejs
+vm: true
+
+env_variables:
+  SERVICE: app.js
