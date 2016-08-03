@@ -1,0 +1,22 @@
+{
+  "name": "gcloud-services",
+  "version": "0.0.1",
+  "description": "Multiple services in google cloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ${SERVICE:-app.js}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "google",
+    "cloud"
+  ],
+  "author": "Paulo Diovani <paulo@diovani.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fortune-teller": "^0.1.2",
+    "moment": "^2.14.1"
+  }
+}
