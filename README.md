@@ -8,6 +8,8 @@ Some Node.js services to test Goggle Cloud deploy on App Engine Flexible Environ
 - `time-logger.js` &mdash; Logs service update since started.
 - `fortune-logger.js` &mdash; Writes fortune to `stdout` at every 5 seconds.
 
+![services](services.png)
+
 ## Run
 
 ```bash
