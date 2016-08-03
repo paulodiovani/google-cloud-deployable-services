@@ -1,0 +1,6 @@
+service: time-counter
+runtime: nodejs
+vm: true
+
+env_variables:
+  SERVICE: time-counter.js
