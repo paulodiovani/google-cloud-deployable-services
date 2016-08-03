@@ -1,0 +1,6 @@
+service: fortune-logger
+runtime: nodejs
+vm: true
+
+env_variables:
+  SERVICE: fortune-logger.js
